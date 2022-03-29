@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 import nmap
+nmap.PortScanner()
 
 scanner = nmap.PortScanner()
 ip_addr = input("Please enter the IP address you want to scan: ")
