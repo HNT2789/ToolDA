@@ -1,8 +1,0 @@
-1- pip install django						Cài đặt django
-2- pyton3 manage.py runserver					Chạy server
-3- django-admin startproject mysite				Khởi tạo project
-4- python3 manage.py startapp CVEScanner			Khởi tạo ứng dụng
-	file url.py sẽ là các đường dẫn trong ứng dụng
-	file view.py sẽ là định nghĩa các hàm hiển thị hiển thị
-	file model.py định nghĩa các ánh xạ giữa CSDL và python, python muốn chọc vào csdl thì thông qua cái model đó
-	
