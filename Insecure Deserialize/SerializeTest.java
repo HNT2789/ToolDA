@@ -3,7 +3,6 @@ import java.io.ObjectOutputStream;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.Serializable;
-import java.io.IOException;
 
 class User implements Serializable {
     public String username;
@@ -12,7 +11,7 @@ class User implements Serializable {
 public class SerializeTest {
     public static void main(String args[]) throws Exception {
         User newUser = new User();
-        newUser.username = "Hoàng Thái";
+        newUser.username = "Thaihn";
         FileOutputStream fos = new FileOutputStream("object.ser");
         ObjectOutputStream os = new ObjectOutputStream(fos);
         os.writeObject(newUser);
